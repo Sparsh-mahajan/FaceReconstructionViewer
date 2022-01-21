@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Sparsh\source\repos\ReconstructionViewer\ReconstructionViewer\src\main.cpp(67,2): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Sparsh\source\repos\ReconstructionViewer\ReconstructionViewer\src\main.cpp(202,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Sparsh\source\repos\ReconstructionViewer\ReconstructionViewer\src\main.cpp(216,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Sparsh\source\repos\ReconstructionViewer\ReconstructionViewer\src\main.cpp(217,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ReconstructionViewer.vcxproj -> C:\Users\Sparsh\source\repos\ReconstructionViewer\x64\Debug\ReconstructionViewer.exe
