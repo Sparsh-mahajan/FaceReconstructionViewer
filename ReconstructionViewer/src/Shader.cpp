@@ -119,7 +119,7 @@ void Shader::SetUniformMatrix4fv(const char* name, glm::mat4& matrix)
 	unsigned int uniformLoc = glGetUniformLocation(m_RendererID,name);
 	glUniformMatrix4fv(uniformLoc, 1, GL_FALSE, glm::value_ptr(matrix));
 }
-void Shader::SetUniformbool(const char* name, bool value)
+void Shader::SetUniform1i(const char* name, int value)
 {
 	unsigned int uniformLoc = glGetUniformLocation(m_RendererID, name);
 	glUniform1i(uniformLoc, value);

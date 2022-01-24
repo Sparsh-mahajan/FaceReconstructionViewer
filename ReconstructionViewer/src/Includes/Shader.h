@@ -34,6 +34,6 @@ public:
 	void UnBind() const;
 	unsigned int GetProgramID() const;
 	void SetUniformMatrix4fv(const char* name, glm::mat4& matrix);
-	void SetUniformbool(const char* name, bool value);
+	void SetUniform1i(const char* name, int value);
 	void SetUniform4f(const char* name, float v0, float v1, float v2, float v3);
 };

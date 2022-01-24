@@ -10,7 +10,7 @@ uniform mat4 Projection;
 
 void main()
 {
-	gl_Position = Projection * View * vec4(aPos, 1.0f);
+	gl_Position = Projection * View * Transform * vec4(aPos, 1.0f);
 }
 
 #shader fragment

@@ -21,8 +21,10 @@
   <ItemGroup>
     <ClCompile Include="src\glad.c" />
     <ClCompile Include="src\IndexBuffer.cpp" />
+    <ClCompile Include="src\LoadPoints.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
     <ClCompile Include="src\Vendor\stb_image\stb_image.cpp" />
     <ClCompile Include="src\VertexArray.cpp" />
     <ClCompile Include="src\VertexBuffer.cpp" />
@@ -33,12 +35,13 @@
     <None Include="Res\Shader\Try.shader" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Includes\LoadPoints.h" />
     <ClInclude Include="src\Includes\Shader.h" />
+    <ClInclude Include="src\Includes\Texture.h" />
     <ClInclude Include="src\Includes\VertexArray.h" />
     <ClInclude Include="src\Includes\IndexBuffer.h" />
     <ClInclude Include="src\Includes\VertexBuffer.h" />
     <ClInclude Include="src\Includes\VertexBufferLayout.h" />
-    <ClInclude Include="src\Vendor\happly\happly.h" />
     <ClInclude Include="src\Vendor\stb_image\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
